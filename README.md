@@ -18,7 +18,7 @@ auto id = nanoid::generate() //=> "Uakgb_J5m9g~0JDMbcJqLJ"
 If you want to reduce ID length (and increase collisions probability),
 you can pass the size as an argument:
 
-```cs
+```cpp
 auto id = nanoid::generate(10) //=> "IRFa~VaY2b"
 ```
 
