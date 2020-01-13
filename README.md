@@ -12,14 +12,14 @@ The default method uses URL-friendly symbols (`A-Za-z0-9_~`) and returns an ID
 with 21 characters.
 
 ```cpp
-auto id = nanoid::generate() //=> "Uakgb_J5m9g~0JDMbcJqLJ"
+auto id = nanoid::generate();
 ```
 
 If you want to reduce ID length (and increase collisions probability),
 you can pass the size as an argument:
 
 ```cpp
-auto id = nanoid::generate(10) //=> "IRFa~VaY2b"
+auto id = nanoid::generate(10);
 ```
 
 ### Custom Alphabet or Length
