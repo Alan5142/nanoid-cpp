@@ -1,7 +1,7 @@
 # nanoid-cpp
 
 [![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)](LICENSE)
-![Build](https://img.shields.io/azure-devops/build/alan5142/ecc372ab-377a-498b-8e83-623529e41bba/3)
+[![License](https://img.shields.io/azure-devops/build/alan5142/ecc372ab-377a-498b-8e83-623529e41bba/3)](https://dev.azure.com/alan5142/nanoid-cpp/_build)
 
 Header-only C++ implementation of [ai's](https://github.com/ai) [nanoid](https://github.com/ai/nanoid)
 
