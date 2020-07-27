@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)](LICENSE)
 
 Header-only C++ implementation of [ai's](https://github.com/ai) [nanoid](https://github.com/ai/nanoid)
-<
+
 ## Usage
 
 ### Normal
