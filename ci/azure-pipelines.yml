@@ -17,5 +17,11 @@ jobs:
       cmakeArgs: ..
   - script: cd build && make
     name: 'Build'
-  - script: cd build/tests && ./nanoid_test
+  - script: cd build/tests && ./nanoid_test --gtest_output=xml:TEST.xml
     name: 'Test'
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: '**/TEST-*.xml'
+      failTaskOnFailedTests: true
+      testRunTitle: 'Test nanoid-cpp'
