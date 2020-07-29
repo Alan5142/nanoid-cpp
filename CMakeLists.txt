@@ -3,5 +3,11 @@ project(nanoid)
 
 set(CMAKE_CXX_STANDARD 11)
 
+option(ENABLE_TEST "Enable testing" ON)
+
 add_subdirectory(src)
-add_subdirectory(tests)
+
+if (ENABLE_TEST)
+	enable_testing()
+	add_subdirectory(tests)
+endif()
