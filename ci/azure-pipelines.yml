@@ -4,8 +4,14 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
-- master
+pr:
+  branches:
+    include:
+    - master
+  paths:
+    exclude:
+    - README.md
+    - ci/*
 
 jobs:
 - job: 'Build_and_test'
